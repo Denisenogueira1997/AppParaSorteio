@@ -24,16 +24,11 @@ fun TelaAdicionarFilme(
                 backgroundColor = Color.Gray,
                 contentColor = Black,
                 title = {
-                    Box(
-                        modifier = Modifier
-                            .fillMaxWidth(),
-                             contentAlignment = Alignment.Center
-                    ) {
                         Text(
                             "Adicionar Filme"
 
                         )
-                    } },
+                     },
                 navigationIcon = {
                     IconButton(onClick = onVoltar) {
                         Icon(
