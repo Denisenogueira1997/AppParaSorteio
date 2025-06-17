@@ -26,8 +26,8 @@ fun TelaAdicionarFilme(
                 title = {
                     Box(
                         modifier = Modifier
-                            .fillMaxWidth()
-                            .padding(start = 32.dp, end = 40.dp)
+                            .fillMaxWidth(),
+                             contentAlignment = Alignment.Center
                     ) {
                         Text(
                             "Adicionar Filme"

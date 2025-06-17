@@ -28,8 +28,9 @@ fun MainScreen(
                 contentColor = Black,
                 title = {
                     Box(
-                        modifier = Modifier.fillMaxWidth()
-                        .padding(start = 80.dp, end = 48.dp)
+                        modifier = Modifier.fillMaxWidth(),
+                        contentAlignment = Alignment.Center
+
                     ) {
                         Text("Sorteio de Filmes")
                     }
