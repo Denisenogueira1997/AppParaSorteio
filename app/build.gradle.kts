@@ -102,5 +102,6 @@ dependencies {
     implementation ("androidx.lifecycle:lifecycle-viewmodel-compose:2.6.1")
     implementation ("androidx.activity:activity-compose:1.7.1")
     implementation ("androidx.compose.runtime:runtime-livedata:1.4.3")
+    implementation("androidx.compose.material3:material3:1.2.1")
 
 }

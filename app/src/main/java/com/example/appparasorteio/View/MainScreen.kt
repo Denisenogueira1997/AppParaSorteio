@@ -91,8 +91,10 @@ fun MainScreen(
                         contentDescription = "Adicionar novo item",
                         tint = Color.Black
                     )
+
                 }
             }
+
         }
     }
 }
