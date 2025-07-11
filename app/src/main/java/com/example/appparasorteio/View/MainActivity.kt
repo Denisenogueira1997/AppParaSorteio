@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.lifecycle.ViewModelProvider
 import com.example.appparasorteio.ViewModel.ItemViewModelFactory
+import com.example.appparasorteio.ui.theme.AppParaSorteioTheme
 
 class MainActivity : ComponentActivity() {
     private lateinit var viewModel: ItemViewModel
@@ -16,7 +17,10 @@ class MainActivity : ComponentActivity() {
         viewModel = ViewModelProvider(this, factory).get(ItemViewModel::class.java)
 
         setContent {
-            AppNavigation(viewModel = viewModel)
+            AppParaSorteioTheme {
+                AppNavigation(viewModel = viewModel)
+
+            }
         }
     }
 }
